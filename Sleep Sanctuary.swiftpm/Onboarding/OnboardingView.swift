@@ -13,7 +13,7 @@ struct OnboardingView: View {
         TabView {
             PageView(
                 title: "Welcome to Sleep Sanctuary ",
-                subtitle: "This app talks about the curious case of human beings that they deliberately deprive themselves of the most vital aspect of their health: sleep.",
+                subtitle: "This app talks about the curious case of human beings that deliberately deprive themselves of the most vital aspect of their health: sleep.",
                 imageName: "OB1",
                 showsDismissButton: false,
                 shouldShowOnBoarding: $shouldShowOnBoarding

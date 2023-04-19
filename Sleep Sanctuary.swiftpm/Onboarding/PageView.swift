@@ -32,7 +32,7 @@ struct PageView: View {
                 }
                 .padding()
             }
-            VStack(spacing: 40) {
+            VStack(alignment: .center, spacing: 40) {
                 Text(title)
                     .font(.title.bold())
                     .multilineTextAlignment(.center)
@@ -42,7 +42,7 @@ struct PageView: View {
 
                 Text(subtitle)
                     .font(.headline)
-                    .multilineTextAlignment(.center)
+                    .multilineTextAlignment(.leading)
                     .foregroundColor(.white)
                     .padding(.horizontal, 40)
 
