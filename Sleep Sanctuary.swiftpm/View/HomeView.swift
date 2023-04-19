@@ -19,12 +19,6 @@ struct HomeView: View {
         ZStack {
 
             ScrollView {
-                Text("Courses".uppercased())
-                    .font(.footnote.weight(.semibold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal, 20)
-
                 // spacing manage all the space between columns and rows inside LazyVGrid
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 300), spacing: 20)], spacing: 20) {
                     if !show {
@@ -32,7 +26,7 @@ struct HomeView: View {
                     } else {
                         ForEach(courses) { course in
                             Rectangle()
-                                .fill(.gray)
+                                .fill(Color("main"))
                                 .frame(height: 300)
                                 .cornerRadius(30)
                                 .shadow(color: Color(.black), radius: 20, x: 0, y: 20)
@@ -53,7 +47,7 @@ struct HomeView: View {
             }
         }
         // If you use the Color inside the ZStack it will break matchedGeometry
-        .background(Color(.gray).ignoresSafeArea())
+        .background(Color("main").ignoresSafeArea())
         .statusBar(hidden: !showStatusBar)
         .onChange(of: show) { newValue in
             withAnimation(.closeCard) {

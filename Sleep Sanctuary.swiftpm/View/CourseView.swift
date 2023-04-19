@@ -22,11 +22,11 @@ struct CourseView: View {
                 cover
 
                 content
-                    .offset(y: 120)
+                    .offset(y: 80)
                     .padding(.bottom, 200)
                     .opacity(appear[2] ? 1 : 0)
             }
-            .background(.gray)
+            .background(Color("background-secondary"))
             // This mask and shadow modifier are shown when draggin to dismiss
             .mask(RoundedRectangle(cornerRadius: viewState.width / 3, style: .continuous))
             .shadow(color: .black.opacity(0.3), radius: 30, x: 0, y: 10)
@@ -114,7 +114,7 @@ struct CourseView: View {
     }
 
     var content: some View {
-        Text("The first factor is a signal beamed out from your internal twenty-four-hour clock located deep within your brain. The clock creates a cycling, day-night rhythm that makes you feel tired or alert at regular times of night and day, respectively. Everyone generates a circadian rhythm (circa, meaning “around,” and dian, derivative of diam, meaning “day”). Indeed, every living creature on the planet with a life span of more than several days generates this natural cycle. It controls other rhythmic patterns, too. These include your timed preferences for eating and drinking, your moods and emotions, the amount of urine you produce,I your core body temperature, your metabolic rate, and the release of numerous hormones.")
+        Text(course.articleBody)
             .padding(20)
     }
 
@@ -129,23 +129,10 @@ struct CourseView: View {
                 .font(.footnote.weight(.semibold))
                 .matchedGeometryEffect(id: "subtitle\(course.id)", in: namespace)
 
-            Text("Build an iOS app for iOS 15 with custom layouts, animations and...")
+            Text(course.text)
                 .font(.footnote)
                 .matchedGeometryEffect(id: "text\(course.id)", in: namespace)
 
-            Divider()
-                .opacity(appear[0] ? 1 : 0)
-            HStack {
-                Image(systemName: "person")
-                   // .fontWeight(.bold)
-                    .padding(20)
-                    .background(
-                        .ultraThinMaterial, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-
-                Text("Tought by Antonio Palomba")
-                    .font(.footnote)
-            }
-            .opacity(appear[1] ? 1 : 0)
         }
         .padding(20)
         .background(

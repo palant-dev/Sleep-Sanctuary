@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var shouldShowOnBoarding = true
+    @State var shouldShowOnBoarding = false
     var body: some View {
         VStack {
             HomeView()

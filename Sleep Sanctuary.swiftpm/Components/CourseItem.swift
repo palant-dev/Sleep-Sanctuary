@@ -22,7 +22,7 @@ struct CourseItem: View {
 
             VStack(alignment: .leading, spacing: 12) {
                 Text(course.title)
-                    .font(.largeTitle.weight(.bold))
+                    .font(.title.weight(.bold))
                     .matchedGeometryEffect(id: "title\(course.id)", in: namespace)
                     .dynamicTypeSize(.large)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -66,8 +66,10 @@ struct CourseItem: View {
                 .matchedGeometryEffect(id: "mask\(course.id)", in: namespace)
         }
         .frame(height: 300)
+        .shadow(color: .black.opacity(0.5), radius: 8, x: 4, y: 4)
     }
-}
+    }
+
 
 struct CourseItem_Previews: PreviewProvider {
     @Namespace static var namespace
