@@ -4,13 +4,8 @@ struct ContentView: View {
     @State var shouldShowOnBoarding = true
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("You are in the main app now!")
+            HomeView()
         }
-        .navigationTitle("Home")
-        .padding()
         .fullScreenCover(isPresented: $shouldShowOnBoarding) {
             OnboardingView(shouldShowOnBoarding: $shouldShowOnBoarding)
         }
