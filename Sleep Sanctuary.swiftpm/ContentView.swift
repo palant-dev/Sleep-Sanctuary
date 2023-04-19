@@ -1,28 +1,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var shouldShowOnBoarding = true
     var body: some View {
-        ZStack {
-            Rectangle()
-                .ignoresSafeArea()
-                .foregroundColor(Color("main"))
-            VStack{
-                HStack(spacing: 20) {
-                    Circle()
-                        .foregroundColor(.white)
-                        .overlay {
-                            Image("placeholder")
-                        }
-                    Spacer()
-                    Circle()
-                        .foregroundColor(.white)
-                        .foregroundColor(.white)
-                        .overlay {
-                            Image("placeholder")
-                        }
-                }
-                .padding(.horizontal, 40)
-            }
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("You are in the main app now!")
+        }
+        .navigationTitle("Home")
+        .padding()
+        .fullScreenCover(isPresented: $shouldShowOnBoarding) {
+            OnboardingView(shouldShowOnBoarding: $shouldShowOnBoarding)
         }
     }
 }
