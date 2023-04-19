@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Articles.swift
 //  
 //
 //  Created by Antonio Palomba on 19/04/23.

@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  PageView.swift
 //  
 //
 //  Created by Antonio Palomba on 19/04/23.
@@ -57,7 +57,7 @@ struct PageView: View {
                             .background(Color("secondary-light-blue"))
                             .cornerRadius(20)
                     }
-                    
+
                 }
             }
             .offset(y: geometry.size.height/1.8)
@@ -66,7 +66,7 @@ struct PageView: View {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-            )
+        )
     }
 }
 
