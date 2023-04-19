@@ -59,7 +59,7 @@ You may wonder why Mother Nature has programmed this variability across people. 
     Articles(
         title: "Solar powered humans",
         subtitle: "5 minutes",
-        text: "Discover how solar light influence melatonin and adenosine production.",
+        text: "How solar light influence melatonin and adenosine production?",
         image: "Solar1",
         background: "Desert2",
         articleBody: """
@@ -140,7 +140,7 @@ If you are experiencing daytime fatigue, impairment, or distress, it's important
     Articles(
         title: "Sleep or Coma?",
         subtitle: "3 minutes",
-        text: "How do we know that someone is sleeping.",
+        text: "How do we know that someone is sleeping?",
         image: "Sloth1",
         background: "Jungle2",
         articleBody: """
@@ -164,7 +164,7 @@ Given all of these signals, how do we know when we ourselves have slept? The ans
     Articles(
         title: "The sleep cycle",
         subtitle: "3 minutes",
-        text: "What happens when you close your eyes.",
+        text: "What happens when you close your eyes?",
         image: "Man1",
         background: "Mountain2",
         articleBody: """
@@ -186,7 +186,7 @@ In conclusion, the battle between NREM and REM sleep is essential for maintainin
     Articles(
         title: "Dreams and their role",
         subtitle: "4 minutes",
-        text: "Does the dreams have a real function.",
+        text: "Do the dreams have a real function?",
         image: "Portal1",
         background: "Mountain3",
         articleBody: """
@@ -234,7 +234,7 @@ People often underestimate the importance of losing just one hour of sleep, but 
     Articles(
         title: "Weight and sleep",
         subtitle: "4 minutes",
-        text: "How sleep can influence Weight and eating habits.",
+        text: "How sleep can influence Weight and eating habits?",
         image: "Food1",
         background: "Jungle3",
         articleBody: """
@@ -254,7 +254,7 @@ The reason why people crave unhealthy foods when they don't get enough sleep is 
     Articles(
         title: "Education and sleep",
         subtitle: "4 minutes",
-        text: "How school and society can influence sleep deprivation.",
+        text: "How school and society can influence sleep deprivation?",
         image: "School1",
         background: "City1",
         articleBody: """
