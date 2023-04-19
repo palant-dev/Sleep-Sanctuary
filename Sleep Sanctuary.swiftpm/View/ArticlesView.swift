@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct CourseView: View {
+struct ArticlesView: View {
     var namespace: Namespace.ID
-    var course: Course = courses[0]
+    var article: Articles = articles[0]
     @Binding var show: Bool
     @State var appear = [false, false, false]
     @State var viewState: CGSize = .zero
@@ -61,21 +61,21 @@ struct CourseView: View {
             .frame(height: scrollY > 0 ? 500 + scrollY : 500)
             .foregroundColor(.black)
             .background(
-                Image(course.image)
+                Image(article.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 // This padding and frame are added to avoid screen issue on ipad
                     .padding(20)
                     .frame(maxWidth: 500)
-                    .matchedGeometryEffect(id: "image\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "image\(article.id)", in: namespace)
                     .offset(y: scrollY > 0 ? scrollY * -0.8 : 0)
                     .accessibilityLabel("Description for accessibility for image")
             )
             .background(
-                Image(course.background)
+                Image(article.background)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .matchedGeometryEffect(id: "background\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "background\(article.id)", in: namespace)
                 // We need to add a negative offset managed by geometry reader to not let the background move when scrolling
                     .offset(y: scrollY > 0 ? -scrollY : 0)
                 // If you want to zoom the background image while pulling (+1 needed because scale start from 1 and not 0)
@@ -85,7 +85,7 @@ struct CourseView: View {
             )
             .mask {
                 RoundedRectangle(cornerRadius: appear[0] ? 0 : 30, style: .continuous)
-                    .matchedGeometryEffect(id: "mask\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "mask\(article.id)", in: namespace)
                     .offset(y: scrollY > 0 ? -scrollY : 0)
             }
             .overlay(
@@ -114,24 +114,24 @@ struct CourseView: View {
     }
 
     var content: some View {
-        Text(course.articleBody)
+        Text(article.articleBody)
             .padding(20)
     }
 
     var overlayContent: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text(course.title)
+            Text(article.title)
                 .font(.largeTitle.weight(.bold))
-                .matchedGeometryEffect(id: "title\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "title\(article.id)", in: namespace)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            Text(course.subtitle.uppercased())
+            Text(article.subtitle.uppercased())
                 .font(.footnote.weight(.semibold))
-                .matchedGeometryEffect(id: "subtitle\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "subtitle\(article.id)", in: namespace)
 
-            Text(course.text)
+            Text(article.text)
                 .font(.footnote)
-                .matchedGeometryEffect(id: "text\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "text\(article.id)", in: namespace)
 
         }
         .padding(20)
@@ -140,7 +140,7 @@ struct CourseView: View {
                 .fill(.ultraThinMaterial)
                 .mask(
                     RoundedRectangle(cornerRadius: 30, style: .continuous))
-                .matchedGeometryEffect(id: "blur\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "blur\(article.id)", in: namespace)
         )
         .accessibilityElement(children: .combine)
         .offset(y: 250)
@@ -214,6 +214,6 @@ struct CourseView: View {
 struct CourseView_Previews: PreviewProvider {
     @Namespace static var namespace
     static var previews: some View {
-        CourseView(namespace: namespace, show: .constant(true))
+        ArticlesView(namespace: namespace, show: .constant(true))
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Course: Identifiable {
+struct Articles: Identifiable {
     let id = UUID()
     var title: String
     var subtitle: String
@@ -17,10 +17,10 @@ struct Course: Identifiable {
     var articleBody: String
 }
 
-var courses = [
+var articles = [
 
     // The internal clock
-    Course(
+    Articles(
         title: "The Internal Clock",
         subtitle: "3 minutes",
         text: "How does your body know when it’s time to sleep? The Circadian Rhythm.",
@@ -38,7 +38,7 @@ As we approach bedtime, our body temperature drops and our biological clock coor
     ),
 
     // The Chronotypes
-    Course(
+    Articles(
         title: "The Chronotypes",
         subtitle: "4 minutes",
         text: "Are you a Lark or a Owl? Discover how genetics influence sleep.",
@@ -56,7 +56,7 @@ You may wonder why Mother Nature has programmed this variability across people. 
     ),
 
     // Solar powered humans
-    Course(
+    Articles(
         title: "Solar powered humans",
         subtitle: "5 minutes",
         text: "Discover how solar light influence melatonin and adenosine production.",
@@ -82,7 +82,7 @@ Melatonin slowly decreases in concentration across the night and into the mornin
     ),
 
     // Tricking your organism
-    Course(
+    Articles(
         title: "Tricking your organism",
         subtitle: "5 minutes",
         text: "All the truth about your favourite psychoactive stimulant: the caffeine.",
@@ -110,7 +110,7 @@ When the receptors become vacant by way of caffeine decomposition, adenosine rus
     ),
 
     // Getting enough sleep?
-    Course(
+    Articles(
         title: "Getting enough sleep?",
         subtitle: "5 minutes",
         text: "How do you know whether you’re routinely getting enough sleep?",
@@ -137,7 +137,7 @@ If you are experiencing daytime fatigue, impairment, or distress, it's important
     ),
 
     // Sleep or Coma?
-    Course(
+    Articles(
         title: "Sleep or Coma?",
         subtitle: "3 minutes",
         text: "How do we know that someone is sleeping.",
@@ -161,7 +161,7 @@ Given all of these signals, how do we know when we ourselves have slept? The ans
     ),
 
     // The sleep cycle
-    Course(
+    Articles(
         title: "The sleep cycle",
         subtitle: "3 minutes",
         text: "What happens when you close your eyes.",
@@ -183,7 +183,7 @@ In conclusion, the battle between NREM and REM sleep is essential for maintainin
     ),
 
     // Dreams and their role
-    Course(
+    Articles(
         title: "Dreams and their role",
         subtitle: "4 minutes",
         text: "Does the dreams have a real function.",
@@ -213,7 +213,7 @@ Despite the many mysteries surrounding dreams and their function, they remain an
     ),
 
     // Hearth and sleep
-    Course(
+    Articles(
         title: "Hearth and sleep",
         subtitle: "3 minutes",
         text: "Sleep Deprivation: an heart-breaking news.",
@@ -231,7 +231,7 @@ People often underestimate the importance of losing just one hour of sleep, but 
     ),
 
     // Weight and sleep
-    Course(
+    Articles(
         title: "Weight and sleep",
         subtitle: "4 minutes",
         text: "How sleep can influence Weight and eating habits.",
@@ -251,7 +251,7 @@ The reason why people crave unhealthy foods when they don't get enough sleep is 
     ),
 
     // Education and sleep
-    Course(
+    Articles(
         title: "Education and sleep",
         subtitle: "4 minutes",
         text: "How school and society can influence sleep deprivation.",
@@ -271,7 +271,7 @@ The reason why people crave unhealthy foods when they don't get enough sleep is 
     ),
 
     // The 12 golden tips
-    Course(
+    Articles(
         title: "The 12 golden tips",
         subtitle: "3 minutes",
         text: "Tips on how to improve sleep quality and feel more rested and energized during the day.",

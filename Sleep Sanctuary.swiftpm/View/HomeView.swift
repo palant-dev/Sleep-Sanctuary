@@ -24,7 +24,7 @@ struct HomeView: View {
                     if !show {
                         cards
                     } else {
-                        ForEach(courses) { course in
+                        ForEach(articles) { course in
                             Rectangle()
                                 .fill(Color("main"))
                                 .frame(height: 300)
@@ -61,8 +61,8 @@ struct HomeView: View {
     }
 
     var cards: some View {
-        ForEach(courses) { course in
-            CourseItem(namespace: namespace, course: course, show: $show)
+        ForEach(articles) { course in
+            ArticlesItem(namespace: namespace, article: course, show: $show)
                 .onTapGesture {
                     withAnimation(.openCard) {
                         show.toggle()
@@ -78,9 +78,9 @@ struct HomeView: View {
     }
 
     var detail: some View {
-        ForEach(courses) { course in
+        ForEach(articles) { course in
             if course.id == selectedID {
-                CourseView(namespace: namespace, course: course, show: $show)
+                ArticlesView(namespace: namespace, article: course, show: $show)
                 // In order to give an order of appearing/disappearing to the overlapping elements
                     .zIndex(1)
                 // This is for assuring you that the fade is not played too late or too early

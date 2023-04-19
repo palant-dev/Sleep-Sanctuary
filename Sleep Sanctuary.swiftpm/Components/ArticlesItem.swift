@@ -1,16 +1,16 @@
 //
-//  SwiftUIView.swift
+//  ArticlesView.swift
 //  
 //
 //  Created by Antonio Palomba on 19/04/23.
 //
 import SwiftUI
 
-struct CourseItem: View {
+struct ArticlesItem: View {
 
     // This is the only way to make namespace required when we are going to call the component, remember to add "@Namespace static var namespace" inside the preview
     var namespace: Namespace.ID
-    var course: Course = courses[0]
+    var article: Articles = articles[0]
     @Binding var show: Bool
 
     // This is for reading accessiblity dynamicTypeSize settings
@@ -21,20 +21,20 @@ struct CourseItem: View {
             Spacer()
 
             VStack(alignment: .leading, spacing: 12) {
-                Text(course.title)
+                Text(article.title)
                     .font(.title.weight(.bold))
-                    .matchedGeometryEffect(id: "title\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "title\(article.id)", in: namespace)
                     .dynamicTypeSize(.large)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-                Text(course.subtitle.uppercased())
+                Text(article.subtitle.uppercased())
                     .font(.footnote.weight(.semibold))
-                    .matchedGeometryEffect(id: "subtitle\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "subtitle\(article.id)", in: namespace)
 
-                Text(course.text)
+                Text(article.text)
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
-                    .matchedGeometryEffect(id: "text\(course.id)", in: namespace)
+                    .matchedGeometryEffect(id: "text\(article.id)", in: namespace)
                     .lineLimit(dynamicTypeSize > .large ? 1 : 2)
             }
             .padding(20)
@@ -44,26 +44,26 @@ struct CourseItem: View {
                     .mask(
                         RoundedRectangle(cornerRadius: 30, style: .continuous))
                     .blur(radius: 30)
-                    .matchedGeometryEffect(id: "blur\(course.id)", in: namespace))
+                    .matchedGeometryEffect(id: "blur\(article.id)", in: namespace))
         }
         .foregroundColor(.white)
         .background(
-            Image(course.image)
+            Image(article.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding(20)
-                .matchedGeometryEffect(id: "image\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "image\(article.id)", in: namespace)
                 .accessibilityLabel("Description for accessibility for image")
         )
         .background(
-            Image(course.background)
+            Image(article.background)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .matchedGeometryEffect(id: "background\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "background\(article.id)", in: namespace)
         )
         .mask {
             RoundedRectangle(cornerRadius: 30, style: .continuous)
-                .matchedGeometryEffect(id: "mask\(course.id)", in: namespace)
+                .matchedGeometryEffect(id: "mask\(article.id)", in: namespace)
         }
         .frame(height: 300)
         .shadow(color: .black.opacity(0.5), radius: 8, x: 4, y: 4)
@@ -71,11 +71,11 @@ struct CourseItem: View {
     }
 
 
-struct CourseItem_Previews: PreviewProvider {
+struct ArticlesItem_Previews: PreviewProvider {
     @Namespace static var namespace
 
     static var previews: some View {
-        CourseItem(namespace: namespace, show: .constant(true))
+        ArticlesItem(namespace: namespace, show: .constant(true))
     }
 }
 
