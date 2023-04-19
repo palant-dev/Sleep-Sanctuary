@@ -12,37 +12,30 @@ struct OnboardingView: View {
     var body: some View {
         TabView {
             PageView(
-                title: "Push Notifications",
-                subtitle: "Enable notifications to stay up to date with friends.",
-                imageName: "bell",
+                title: "Welcome to Sleep Sanctuary ",
+                subtitle: "This app talks about the curious case of human beings that they deliberately deprive themselves of the most vital aspect of their health: sleep.",
+                imageName: "OB1",
                 showsDismissButton: false,
                 shouldShowOnBoarding: $shouldShowOnBoarding
             )
 
             PageView(
-                title: "Bookmarks",
-                subtitle: "Save your favorite pieces of content.",
-                imageName: "bookmark",
+                title: "The silent epidemic",
+                subtitle: "The World Health Organization (WHO) has declared a sleep loss epidemic in industrialized nations. A century ago, 2% of Americans slept less then 6 hours. Today, almost 30% of American adults do.",
+                imageName: "OB2",
                 showsDismissButton: false,
                 shouldShowOnBoarding: $shouldShowOnBoarding
             )
 
             PageView(
-                title: "Flights",
-                subtitle: "Book flights to the places you want to go",
-                imageName: "airplane",
-                showsDismissButton: false,
-                shouldShowOnBoarding: $shouldShowOnBoarding
-            )
-
-            PageView(
-                title: "Home",
-                subtitle: "Go home wherever you might be",
-                imageName: "house",
+                title: "Awareness is the solution",
+                subtitle: "Inside the Sleep Sanctuary you will find fragments of knowledge lost in time and space by the humanity. In less then 30 minutes of reading you can radically change your life.",
+                imageName: "OB3",
                 showsDismissButton: true,
                 shouldShowOnBoarding: $shouldShowOnBoarding
             )
         }
+        .background(Color("background-ob"))
         .tabViewStyle(PageTabViewStyle())
     }
 }

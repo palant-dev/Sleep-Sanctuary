@@ -47,11 +47,11 @@ As we approach bedtime, our body temperature drops and our biological clock coor
         articleBody: """
 Some people feel more awake in the morning and sleepy in the evening, while others are the opposite. These two types of people are sometimes called "morning larks" and "night owls." About 40 percent of people are morning larks, while 30 percent are night owls. The remaining 30 percent are somewhere in between. If you're a night owl, you probably have a hard time falling asleep early at night. Instead, you tend to drift off in the early-morning hours. Because of this, you don't like waking up early and may have trouble functioning well in the morning. This is because your brain remains in a more sleep-like state, especially in a region called the prefrontal cortex.
 
-        Whether you're a morning lark or a night owl is largely determined by genetics. Unfortunately, society often treats night owls unfairly. For example, people may label you as lazy because you prefer to wake up later in the day. However, being a night owl isn't a choice; it's determined by your DNA. Additionally, many jobs start early in the morning, which can be difficult for night owls. This can lead to chronic sleep deprivation and reduced job performance.
+Whether you're a morning lark or a night owl is largely determined by genetics. Unfortunately, society often treats night owls unfairly. For example, people may label you as lazy because you prefer to wake up later in the day. However, being a night owl isn't a choice; it's determined by your DNA. Additionally, many jobs start early in the morning, which can be difficult for night owls. This can lead to chronic sleep deprivation and reduced job performance.
 
-        As a society, we need to be more accommodating to different chronotypes. Just like we make accommodations for people with physical disabilities, we should offer more flexible work schedules that adapt to everyone's needs. This would benefit both morning larks and night owls and allow them to perform at their best.
+As a society, we need to be more accommodating to different chronotypes. Just like we make accommodations for people with physical disabilities, we should offer more flexible work schedules that adapt to everyone's needs. This would benefit both morning larks and night owls and allow them to perform at their best.
 
-        You may wonder why Mother Nature has programmed this variability across people. Shouldn't we all be awake at the same time for optimal human interaction? However, humans likely evolved to co-sleep in groups, not alone or as couples. Night owls and morning larks can coexist in the same group and ensure that the group as a whole is only collectively vulnerable for a shorter period, potentially increasing survival fitness.
+You may wonder why Mother Nature has programmed this variability across people. Shouldn't we all be awake at the same time for optimal human interaction? However, humans likely evolved to co-sleep in groups, not alone or as couples. Night owls and morning larks can coexist in the same group and ensure that the group as a whole is only collectively vulnerable for a shorter period, potentially increasing survival fitness.
 """
     ),
 
@@ -64,12 +64,19 @@ Some people feel more awake in the morning and sleepy in the evening, while othe
         background: "Desert2",
         articleBody: """
 Another factor that determines when we feel sleepy and should go to bed is a chemical substance that builds up in our brain and creates what scientists call “sleep pressure”. This chemical is called adenosine, and it increases in concentration with every minute we are awake. The longer we stay awake, the more adenosine accumulates in our brain.
+
 Adenosine is a natural byproduct of the body’s energy consumption, and it is produced when we use up adenosine triphosphate (ATP), a molecule that is involved in energy transfer between cells. When adenosine levels in the brain increase, it acts as a signal to the body that it’s time to rest.
+
 As adenosine levels increase, they simultaneously turn down the “volume” of wake-promoting regions in the brain and turn up the dial on sleep-inducing regions. This is why we feel sleepier as the day wears on, and why we tend to get more and more tired the longer we stay awake.
+
 The first factor that determines when we feel sleepy is our twenty-four-hour circadian rhythm. This rhythm is a biological process that regulates many physiological functions in our body, including sleep and wakefulness. The rhythm is controlled by a small group of nerve cells in the brain called the suprachiasmatic nucleus (SCN). The SCN receives signals from our eyes that tell it when it’s light outside and when it’s dark, and it uses this information to regulate the timing of our sleep and wake cycles.
+
 As the day wears on and the sun starts to set, the SCN signals the pineal gland, an area situated deep in the back of our brain, to release a hormone called melatonin into our bloodstream. Melatonin acts like a powerful bullhorn, shouting out a clear message to the brain and body: “It’s dark, it’s dark!”. In this way, melatonin helps regulate the timing of when sleep occurs by signaling darkness throughout the organism.
+
 However, melatonin has little influence on the generation of sleep itself. It simply provides the official instruction to commence the event of sleep, but does not participate in the sleep race itself. For these reasons, melatonin is not a powerful sleeping aid in and of itself, at least not for healthy, non-jet-lagged individuals.
+
 That said, there is a significant sleep placebo effect of melatonin, which should not be underestimated.
+
 Melatonin slowly decreases in concentration across the night and into the morning hours. With dawn, as sunlight enters the brain through the eyes (even through the closed lids), a brake pedal is applied to the pineal gland, thereby shutting off the release of melatonin. The absence of circulating melatonin now informs the brain and body that the finish line of sleep has been reached.
 """
     ),
