@@ -278,15 +278,22 @@ The reason why people crave unhealthy foods when they don't get enough sleep is 
         image: "Golden1",
         background: "Mountain3",
         articleBody: """
-Have you ever noticed that when you don't sleep well, you tend to eat more? Some people think it's because when you stay awake longer, you burn more calories and your body needs more food to keep going. But that's not actually true. In experiments where people were sleep-deprived, they didn't burn any more calories than when they got a full night's sleep.
+To sleep better and improve the quality of your sleep, you can follow these 12 tips:
 
-One study, conducted by Van Cauter, had participants spend four nights getting eight and a half hours of sleep and then four nights getting only four and a half hours of sleep. The participants were given the same level of physical activity each day and had free access to food. The researchers found that when the participants were sleep-deprived, they ate an extra 300 calories each day compared to when they were getting enough sleep. Over the course of the experiment, that added up to more than 1,000 extra calories. If you give people only five to six hours of sleep over a ten-day period, they will still eat more than they need to. Over the course of a year, that could add up to 10 to 15 pounds of weight gain.
+1. Try to go to bed and wake up at the same time every day. Going to bed and waking up at the same time every day helps regulate the body's internal clock, making it easier to fall asleep and wake up.
+2. Do something relaxing before bed like reading a book or taking a warm bath.
+3. Make sure your sleeping environment is cool, dark, and quiet.
+4. Invest in a comfortable bed and pillows.
+5. Avoid using electronic devices that emit blue light before bed: blue light emitted by electronic devices can disrupt the body's natural sleep-wake cycle, so avoiding these devices before bed is best.
+6. Don't drink caffeine, smoke, or drink alcohol close to bedtime.
+7. Eat healthily and exercise regularly.
+8. Try not to take long naps during the day or limit naps to no more than 30 minutes. Also, try to not nap after 3 p.m.
+9. Practice relaxation techniques like deep breathing or meditation to manage stress.
+10. Seek medical help if you have trouble sleeping for a long time.
+11. Cognitive-behavioural therapy (CBT) can be helpful in treating insomnia, for example, if you are having the thought "I'll never be able to fall asleep," you might examine evidence that contradicts this thought, such as times when you have been able to fall asleep in the past.
+12. Learn about the importance of sleep and how it affects your health.
 
-In another experiment, Van Cauter had participants go through the same sleep conditions but added a twist. On the last day of each condition, the participants were offered a buffet of food that included meats, vegetables, bread, potatoes, salad, fruit, and ice cream. There was also a snack bar filled with cookies, chocolate bars, chips, and pretzels. The participants could eat as much as they wanted during the four-hour period, and they ate alone to avoid any social or stigmatizing influences.
-
-Despite eating almost 2,000 calories during the buffet lunch, the sleep-deprived participants still went to the snack bar and ate an additional 330 calories of snack foods. This shows that when people don't get enough sleep, they tend to crave unhealthy foods like sweets, carbohydrate-rich foods, and salty snacks.
-
-The reason why people crave unhealthy foods when they don't get enough sleep is because of changes in hormones that regulate hunger and fullness. When you don't sleep enough, your body produces more of the hormone ghrelin, which makes you feel hungry, and less of the hormone leptin, which makes you feel full. This makes it harder to resist unhealthy foods and causes you to eat more than you need to.
+Following these tips can improve your sleep quality and feel more rested and energised during the day.
 """
     ),
 
