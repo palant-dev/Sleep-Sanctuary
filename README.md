@@ -1,10 +1,11 @@
 # Sleeping Sanctuary
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/palant-dev/Sleep-Sanctuary/blob/main/license)
-[![Swift Version](https://img.shields.io/badge/Swift-5-brightgreen.svg)](https://swift.org)
+[![Swift Version](https://img.shields.io/badge/Swift-5-brightgreen.svg?style=for-the-badge)](https://swift.org)
 
-<img src="https://palant-dev.github.io/images/portfolio/sleeping-sanctuary/cover1.png" alt="project">
+![bannersleepsancturarylong](https://github.com/palant-dev/Sleep-Sanctuary/assets/113528707/632e28e0-d35f-4d8b-a1f6-fc38a6f40c94)
 
-## iOS App - WWDC 2023 Project
+
+## App - WWDC 2023 Project
 Sleeping Sanctuary app talks about the curious case of human beings that deliberately deprive themselves of the most vital aspect of their health: sleep.
 The World Health Organization (WHO) has declared a sleep loss epidemic in industrialised nations. Last year, I read extensively about the important issue of sleep and became an enthusiast of the topic. As a result, I have decided to share some useful information about sleep that can be read in under 30 minutes. Awareness about sleep deprivation plays an important role in solving this social problem. <br>
 <br>
