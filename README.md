@@ -1,4 +1,6 @@
 # Sleeping Sanctuary
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/palant-dev/Sleep-Sanctuary/blob/main/license)
+
 <img src="https://palant-dev.github.io/images/portfolio/sleeping-sanctuary/cover1.png" alt="project">
 
 ## iOS App - WWDC 2023 Project
