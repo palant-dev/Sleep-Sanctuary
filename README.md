@@ -1,4 +1,4 @@
-# Sleeping Sanctuary
+# Sleep Sanctuary
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/palant-dev/Sleep-Sanctuary/blob/main/license)
 [![Swift Version](https://img.shields.io/badge/Swift-5-brightgreen.svg?style=for-the-badge)](https://swift.org)
 
