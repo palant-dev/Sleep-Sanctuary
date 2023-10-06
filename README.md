@@ -1,12 +1,33 @@
-<h1>Sleeping Sanctuary</h1>
-<img src="https://github.com/palant-dev/Sleep-Sanctuary/assets/113528707/13cc79cb-4361-418e-bfa6-f10102232785" alt="project">
+# Sleeping Sanctuary
+<img src="https://palant-dev.github.io/images/portfolio/sleeping-sanctuary/cover1.png" alt="project">
 
-<h2>iOS App - WWDC 2023 Project</h2>
+## iOS App - WWDC 2023 Project
 Sleeping Sanctuary app talks about the curious case of human beings that deliberately deprive themselves of the most vital aspect of their health: sleep.
 The World Health Organization (WHO) has declared a sleep loss epidemic in industrialised nations. Last year, I read extensively about the important issue of sleep and became an enthusiast of the topic. As a result, I have decided to share some useful information about sleep that can be read in under 30 minutes. Awareness about sleep deprivation plays an important role in solving this social problem. <br>
 <br>
-While developing the application, I applied my knowledge of SwiftUI to create a distinctive user interface layout and navigation system, while keeping in mind the challenges associated with non-native components. To ensure accessibility, I integrated Dynamic Font Size and Voiceover functionality, leveraging the creation of component groups to facilitate optimal performance.<br>
-<img src="https://github.com/palant-dev/Sleep-Sanctuary/assets/113528707/13cc79cb-4361-418e-bfa6-f10102232785" alt="project">
+
+
+### Code features
+While developing the application:
+<ul>
+<li>Used SwiftUI to create a distinctive user interface layout </li>
+<li>Coded non-native View Navigation system</li>
+<li>Integrated Dynamic Font Size and Voiceover functionality</li>
+<li>created component groups to facilitate optimal performance</li>
+</ul>
+<br>
+
+https://github.com/palant-dev/Sleep-Sanctuary/assets/113528707/8189e37f-1976-4588-b64b-163ac31abe97
+
+### Compatible Device list
+Works on:
+<ul>
+  <li>iPhone</li>
+  <li>iPad</li>
+  <li>Mac</li>
+</ul>
+<img src="https://github.com/palant-dev/Sleep-Sanctuary/assets/113528707/926e0265-4bcf-4e0f-96a7-135b6eda5918" alt="project">
+
 
 
 
