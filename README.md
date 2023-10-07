@@ -6,7 +6,7 @@
 
 
 ## App - WWDC 2023 Project
-Sleeping Sanctuary app talks about the curious case of human beings that deliberately deprive themselves of the most vital aspect of their health: sleep.
+Sleep Sanctuary app talks about the curious case of human beings that deliberately deprive themselves of the most vital aspect of their health: sleep.
 The World Health Organization (WHO) has declared a sleep loss epidemic in industrialised nations. Last year, I read extensively about the important issue of sleep and became an enthusiast of the topic. As a result, I have decided to share some useful information about sleep that can be read in under 30 minutes. Awareness about sleep deprivation plays an important role in solving this social problem. <br>
 <br>
 
